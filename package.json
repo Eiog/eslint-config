@@ -9,8 +9,9 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "test": "pnpm -r run test",
+    "build": "pnpm -r run build",
     "prepare": "pnpm -r run stub",
-    "release": "bumpp package.json packages/*/package.json --commit --push --set-upstream origin master --tag && pnpm -r publish --no-git-checks --access public"
+    "release": "bumpp -r && pnpm -r publish"
   },
   "devDependencies": {
     "@eiog/eslint-config": "workspace:*",
