@@ -1,0 +1,28 @@
+{
+  "name": "@eiog/eslint-config-ts",
+  "version": "0.0.1",
+  "description": "",
+  "author": "Eiog (https://github.com/eiog/)",
+  "license": "MIT",
+  "homepage": "https://github.com/eiog/eslint-config",
+  "keywords": [
+    "eslint-config"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7.4.0",
+    "typescript": ">=3.9"
+  },
+  "dependencies": {
+    "@eiog/eslint-config-basic": "workspace:*",
+    "@typescript-eslint/eslint-plugin": "^5.59.0",
+    "@typescript-eslint/parser": "^5.59.0",
+    "eslint-plugin-jest": "^27.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.38.0"
+  }
+}

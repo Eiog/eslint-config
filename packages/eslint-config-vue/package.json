@@ -1,0 +1,26 @@
+{
+  "name": "@eiog/eslint-config-vue",
+  "version": "0.0.1",
+  "description": "",
+  "author": "Eiog (https://github.com/eiog/)",
+  "license": "MIT",
+  "keywords": [
+    "eslint-config"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "@eiog/eslint-config-basic": "workspace:*",
+    "@eiog/eslint-config-ts": "workspace:*",
+    "eslint-plugin-vue": "^9.11.0",
+    "local-pkg": "^0.4.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.38.0"
+  }
+}
