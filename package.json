@@ -14,6 +14,7 @@
     "release": "bumpp -r && pnpm -r publish"
   },
   "devDependencies": {
+    "@antfu/ni": "^0.21.3",
     "@eiog/eslint-config": "workspace:*",
     "bumpp": "^9.1.0",
     "eslint": "^8.39.0",

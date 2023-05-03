@@ -4,6 +4,9 @@ importers:
 
   .:
     devDependencies:
+      '@antfu/ni':
+        specifier: ^0.21.3
+        version: 0.21.3
       '@eiog/eslint-config':
         specifier: workspace:*
         version: link:packages/eslint-config
@@ -208,6 +211,11 @@ packages:
     dependencies:
       '@jridgewell/gen-mapping': 0.3.3
       '@jridgewell/trace-mapping': 0.3.18
+    dev: true
+
+  /@antfu/ni@0.21.3:
+    resolution: {integrity: sha512-iDtQMeMW1kKV4nzQ+tjYOIPUm6nmh7pJe4sM0kx1jdAChKSCBLStqlgIoo5Tce++p+o8cBiWIzC3jg6oHyjzMA==}
+    hasBin: true
     dev: true
 
   /@babel/code-frame@7.21.4:
