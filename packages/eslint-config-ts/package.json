@@ -1,6 +1,6 @@
 {
   "name": "@eiog/eslint-config-ts",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "author": "Eiog (https://github.com/eiog/)",
   "license": "MIT",
@@ -18,11 +18,11 @@
   },
   "dependencies": {
     "@eiog/eslint-config-basic": "workspace:*",
-    "@typescript-eslint/eslint-plugin": "^5.59.0",
-    "@typescript-eslint/parser": "^5.59.0",
+    "@typescript-eslint/eslint-plugin": "^5.59.11",
+    "@typescript-eslint/parser": "^5.59.11",
     "eslint-plugin-jest": "^27.2.1"
   },
   "devDependencies": {
-    "eslint": "^8.38.0"
+    "eslint": "^8.42.0"
   }
 }

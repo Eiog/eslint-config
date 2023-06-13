@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-eiog",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "homepage": "https://github.com/eiog/eslint-config",
   "main": "./dist/index.cjs",
@@ -16,10 +16,10 @@
     "prepublishOnly": "nr build"
   },
   "dependencies": {
-    "@typescript-eslint/utils": "^5.59.0"
+    "@typescript-eslint/utils": "^5.59.11"
   },
   "devDependencies": {
-    "@types/node": "^18.15.11",
+    "@types/node": "^18.16.18",
     "unbuild": "^1.2.1",
     "vitest": "^0.30.1"
   }

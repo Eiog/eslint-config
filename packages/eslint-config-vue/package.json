@@ -1,6 +1,6 @@
 {
   "name": "@eiog/eslint-config-vue",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "author": "Eiog (https://github.com/eiog/)",
   "license": "MIT",
@@ -17,10 +17,10 @@
   "dependencies": {
     "@eiog/eslint-config-basic": "workspace:*",
     "@eiog/eslint-config-ts": "workspace:*",
-    "eslint-plugin-vue": "^9.11.0",
+    "eslint-plugin-vue": "^9.14.1",
     "local-pkg": "^0.4.3"
   },
   "devDependencies": {
-    "eslint": "^8.38.0"
+    "eslint": "^8.42.0"
   }
 }

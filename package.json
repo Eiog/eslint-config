@@ -1,6 +1,6 @@
 {
   "name": "@eiog/eslint-config-monorepo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "packageManager": "pnpm@8.3.0",
   "author": "Eiog (https://github.com/eiog/)",
@@ -14,12 +14,12 @@
     "release": "bumpp -r && pnpm -r publish"
   },
   "devDependencies": {
-    "@antfu/ni": "^0.21.3",
+    "@antfu/ni": "^0.21.4",
     "@eiog/eslint-config": "workspace:*",
-    "bumpp": "^9.1.0",
-    "eslint": "^8.39.0",
-    "eslint-plugin-eiog": "link:./packages/eslint-plugin-eiog",
-    "rimraf": "^5.0.0",
-    "typescript": "^5.0.4"
+    "bumpp": "^9.1.1",
+    "eslint": "^8.42.0",
+    "eslint-plugin-eiog": "link:packages\\eslint-plugin-eiog",
+    "rimraf": "^5.0.1",
+    "typescript": "^5.1.3"
   }
 }
